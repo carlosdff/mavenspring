@@ -11,9 +11,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class ProbarPersonas {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         
         ApplicationContext ctx=new AnnotationConfigApplicationContext(ServicioFuentes.class);
